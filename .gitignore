@@ -1,0 +1,21 @@
+# Compilation artifacts
+configure
+CMakeCache.txt
+CMakeUserPresets.json
+
+# Artifacts created in multiple directories
+Makefile
+Makefile.in
+*.o
+*.exe
+*.cmake
+*.txt
+test_*.cpp
+
+# IDEs
+.vs
+.vscode
+.idea
+cmake-build-*
+nbproject
+.cproject
